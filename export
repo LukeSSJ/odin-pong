@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+mkdir -p out
+rm -rf out/*
+
+odin build . -out:out/pong
+cp *.wav out/
